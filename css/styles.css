@@ -11,6 +11,11 @@ html {
     background-size: cover;
 }
 
+.footer{
+    font-size:12px;
+    font-style:italic;
+}
+
 .spacer{
     height:208px;
 }
