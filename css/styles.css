@@ -38,6 +38,10 @@ html {
     color: #d63a0b;
 }
 
+.navbar-light .navbar-nav .nav-link{
+    color:#000;
+}
+
 h1 {
     font-family: 'Cormorant Garamond';
     font-size: 59px;
