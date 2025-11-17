@@ -3,7 +3,6 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Mel Andrews — interdisciplinary scholar in AI ethics and philosophy of science. Research, teaching, talks, and public philosophy.">
     <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
@@ -12,17 +11,14 @@
 <body>
 <nav class="navbar navbar-expand-lg navbar-light fixed-top">
     <div class="container-fluid">
-        <a class="navbar-brand visually-hidden-focusable" href="#about">Mel Andrews</a>
-        <button class="navbar-toggler compact-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#mobile-nav" aria-controls="mobile-nav" aria-expanded="false"
-                aria-label="Toggle navigation">
+        <button class="navbar-toggler bg-left ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#mobile-nav" aria-controls="mobile-nav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="mobile-nav">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                <li class="nav-item"><a class="nav-link" href="#about">about</a></li>
+            <ul class="navbar-nav ms-auto mt-5 mb-lg-0 me-1">
+                <li class="nav-item"><a class="nav-link active" href="#about">about</a></li>
                 <li class="nav-item"><a class="nav-link" href="#research">research</a></li>
-                <li class="nav-item"><a class="nav-link" href="talks.html">talks</a></li>
+                <li class="nav-item"><a class="nav-link" href="#popular-philosophy">popular philosophy</a></li>
                 <li class="nav-item"><a class="nav-link" href="#teaching">teaching</a></li>
                 <li class="nav-item"><a class="nav-link" href="#cv">cv</a></li>
                 <li class="nav-item"><a class="nav-link" href="#contact">contact</a></li>
@@ -33,85 +29,134 @@
 
 <div class="spacer"></div>
 
-<main class="container-fluid px-0">
+<div class="container-fluid">
 
-    <section id="about" class="section-row">
-        <div class="left-col">
-            <h1 class="brand-text">MEL ANDREWS</h1>
-            <div class="subtitle">Princeton University</div>
-            <hr>
-            <p>
-                As an interdisciplinary scholar grounded in AI ethics and philosophy of science, I aim to characterise the role of mathematical and computational tools—particularly, machine learning—in science and society towards the ends of promoting ethically and epistemically sound use. How the world works is a direct (if non-exclusive) function of how the mathematical and computational tools we use to understand and intervene upon the world work. How we utilize mathematical and computational tools to understand, predict, and control the world depends, in turn, on what we make of these tools; what we take their epistemic status and purchase over nature to be. Getting the characterisation of machine learning (ML) based systems, as epistemic technologies, right is a requisite first step in ensuring that their use is to the benefit, not the detriment, of the human populations they interface with.
-            </p>
-        </div>
-        <div class="right-col">
-            <div class="portrait-wrap">
-                <img class="portrait" src="images/portrait.jpg" alt="Mel Andrews portrait">
+    <!-- ABOUT -->
+    <div class="row">
+        <a id="about" class="anchor"></a>
+        <div class="col-12 col-lg-6 bg-left">
+            <div class="content mt-5">
+                <h1 class="brand-text">MEL ANDREWS</h1>
+                <div class="subtitle">Princeton University</div>
+                <hr />
+                <p>As an interdisciplinary scholar grounded in AI ethics and philosophy of science, I aim to characterise the role of mathematical and computational tools—particularly, machine learning—in science and society towards the ends of promoting ethically and epistemically sound use...</p>
             </div>
         </div>
-    </section>
+        <div class="col-12 col-lg-6 d-flex align-items-center justify-content-center green-background">
+            <img class="portrait" src="images/portrait.jpg" alt="Mel Andrews" />
+        </div>
+    </div>
 
-    <section id="research" class="section-row">
-        <div class="left-col">
-            <div class="subtitle">RESEARCH QUESTIONS</div>
-            <hr>
-            <div class="subtitle">Making AI Beneficial</div>
-            <hr>
-            <p>The methods of ML are rapidly taking over consequential real-world decision-making...</p>
-            <div class="subtitle">Machine Learning in Science</div>
-            <hr>
-            <p>My research projects in this vein include 1. evaluating the supposed atheoreticity...</p>
-            <div class="subtitle">The Use of Mathematics in Science</div>
-            <hr>
-            <p>Traditional philosophical accounts of models and applied mathematics treat worldly phenomena...</p>
+    <!-- RESEARCH -->
+    <div class="row">
+        <a id="research" class="anchor"></a>
+        <div class="col-12 col-lg-6 bg-left">
+            <div class="content mt-5">
+                <div class="subtitle">RESEARCH QUESTIONS</div>
+                <hr />
+                <div class="subtitle">Making AI Beneficial</div>
+                <hr />
+                <p>The methods of ML are rapidly taking over consequential real-world decision-making...</p>
+                <div class="subtitle">Machine Learning in Science</div>
+                <hr />
+                <p>My research projects in this vein include 1. evaluating the supposed atheoreticity of machine learning methods when compared to the scientific use of classical mathematical or statistical tools, 2. investigating unsupervised learning methods, 3. characterising DL methods as applied mathematics for complex phenomena, 4. critiquing proposed epistemic norms...</p>
+                <div class="subtitle">The Use of Mathematics in Science</div>
+                <hr />
+                <p>Traditional philosophical accounts of models and applied mathematics treat worldly phenomena and mathematical representations as fundamentally similar. The cognitive prosthesis account I propose renders such errors visible...</p>
+            </div>
         </div>
-        <div class="right-col"></div>
-    </section>
+        <div class="col-12 col-lg-6 green-background">
+            <div class="subtitle mt-5 text-center">RECORDED TALKS</div>
+            <hr />
+            <div class="content mt-5">
+                <a href="https://youtu.be/u3fUXAD1tuo" target="_blank"><img class="img-fluid mt-3" src="images/television.jpg" alt="Talk 1" /></a>
+                <a href="https://youtu.be/gQQyd8Hd3AA" target="_blank"><img class="img-fluid mt-5" src="images/television_2.jpg" alt="Talk 2" /></a>
+            </div>
+        </div>
+    </div>
 
-    <section id="popular-philosophy" class="section-row">
-        <div class="left-col">
-            <div class="subtitle">POPULAR PHILOSOPHY</div>
-            <hr>
-            <ul class="pop-links">
-                <li><a href="https://www.thephilosopher1923.org/post/philosophy-in-the-trenches-and-laboratory-benches-of-science" target="_blank">“Philosophy in the Trenches and Laboratory Benches of Science” (The Philosopher)</a></li>
-                <li><a href="https://www.everand.com/podcast/622488674/01-29-23-Implications-of-Model-Based-Phil-Sci-for-ML-with-Mel-Andrews" target="_blank">Podcast: Implications of Model-Based Phil/Sci for ML (2023)</a></li>
-                <li><a href="https://www.youtube.com/watch?v=I0yil_3dvjs" target="_blank">Video Discussion (YouTube)</a></li>
-                <li><a href="https://www.youtube.com/watch?v=gVvh81phrYQ" target="_blank">Interview / Public Talk (YouTube)</a></li>
-            </ul>
+    <!-- POPULAR PHILOSOPHY -->
+    <div class="row">
+        <a id="popular-philosophy" class="anchor"></a>
+        <div class="col-12 col-lg-6 bg-left">
+            <div class="content mt-5">
+                <div class="subtitle">POPULAR PHILOSOPHY</div>
+                <hr />
+                <ul class="pop-links">
+                    <li>
+                        <a href="https://www.thephilosopher1923.org/post/philosophy-in-the-trenches-and-laboratory-benches-of-science" target="_blank">
+                            Popular Article: Philosophy in the Trenches and Laboratory Benches of Science
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.everand.com/podcast/622488674/01-29-23-Implications-of-Model-Based-Phil-Sci-for-ML-with-Mel-Andrews" target="_blank">
+                            Podcast Interview: Implications of Model-Based Philosophy of Science for Machine Learning
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/watch?v=I0yil_3dvjs" target="_blank">
+                            Podcast Interview: On the Philosophy of Machine Learning
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/watch?v=gVvh81phrYQ" target="_blank">
+                            Podcast Interview: Machine Learning Has a Pseudoscience Problem
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <div class="right-col"></div>
-    </section>
+        <div class="col-12 col-lg-6 green-background"></div>
+    </div>
 
-    <section id="teaching" class="section-row">
-        <div class="left-col">
-            <div class="subtitle">TEACHING</div>
-            <hr>
-            <p> ... </p>
+    <!-- TEACHING -->
+    <div class="row">
+        <a id="teaching" class="anchor"></a>
+        <div class="col-12 col-lg-6 bg-left">
+            <div class="content mt-5">
+                <div class="subtitle">TEACHING</div>
+                <hr />
+                <p>...teaching content...</p>
+            </div>
         </div>
-        <div class="right-col"></div>
-    </section>
+        <div class="col-12 col-lg-6 green-background"></div>
+    </div>
 
-    <section id="cv" class="section-row">
-        <div class="left-col">
-            <div class="subtitle">CURRICULUM VITAE</div>
+    <!-- CV -->
+    <div class="row">
+        <a id="cv" class="anchor"></a>
+        <div class="col-12 col-lg-6 bg-left">
+            <div class="content mt-5"><div class="subtitle">CURRICULUM VITAE</div></div>
         </div>
-        <div class="right-col">
-            <iframe src="Andrews_CV_2023.pdf"></iframe>
+        <div class="col-12 col-lg-6 green-background">
+            <iframe src="Andrews_CV_2023.pdf" style="width:100%; height:100vh;" frameborder="0"></iframe>
         </div>
-    </section>
+    </div>
 
-    <section id="contact" class="section-row">
-        <div class="left-col">
-            <div class="subtitle">CONTACT</div>
+    <!-- CONTACT -->
+    <div class="row">
+        <a id="contact" class="anchor"></a>
+        <div class="col-12 col-lg-6 bg-left">
+            <div class="content mt-5">
+                <div class="subtitle">CONTACT</div>
+            </div>
         </div>
-        <div class="right-col">
-            <p>Email: mel@example.com</p>
-            <p>Phone: +1 234 567 890</p>
-            <p>Address: Princeton University, Princeton, NJ</p>
+        <div class="col-12 col-lg-6 green-background">
+            <div class="content mt-5">
+                <p>Email: <a href="mailto:mel.andrews@tufts.edu">mel.andrews@tufts.edu</a></p>
+                <p>Google Scholar: <a href="https://scholar.google.de/citations?user=aEh_jKcAAAAJ&hl=en" target="_blank">Google Scholar</a></p>
+                <p>Researchgate: <a href="https://www.researchgate.net/profile/Mel-Andrews" target="_blank">Researchgate</a></p>
+                <p>Twitter: <a href="https://twitter.com/bayesianboy" target="_blank">@bayesianboy</a></p>
+                <p>Address: Mel Andrews, Department of Philosophy, McMicken Hall, 2700 Campus Way, Cincinnati, Ohio 45221</p>
+            </div>
         </div>
-    </section>
+    </div>
 
-</main>
+    <div class="row mt-5 mb-3">
+        <div class="col footer text-center">&copy; <script>document.write((new Date).getFullYear());</script> Mel Andrews</div>
+    </div>
+
+</div>
 
 <script src="js/bootstrap.bundle.min.js"></script>
 </body>
