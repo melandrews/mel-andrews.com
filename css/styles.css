@@ -128,8 +128,17 @@ a.anchor {
     margin: 2rem auto;
 }
 
-.green-background img.img-fluid {
-    width: 100%;
+.portrait {
+    max-width: 70%;
+    height: auto;
+    display: block;
+    margin: 2rem auto;
+}
+
+.tv-frame {
+    max-width: 100%;
     height: auto;
     display: block;
 }
+
+
