@@ -3,7 +3,7 @@
 :root {
     --accent: #d63a0b;
     --green-dark: rgb(58,81,70);
-    --light-on-green: #f8f8f8);
+    --light-on-green: #f8f8f8;
     --max-content-width: 720px;
 }
 
@@ -24,4 +24,8 @@ p { font-size:15px; line-height:1.9; margin-bottom:1rem; }
 .pop-links a { color: var(--accent); text-decoration:none; font-weight:500; }
 .pop-links a:hover, .pop-links a:focus { text-decoration:underline; }
 iframe { width:100%; height:100vh; border:0; }
-@media(max-width:991.98px) { .section-row { flex-direction:column; } .right-col { background-color:transparent; color:#222; } }
+
+@media(max-width:991.98px) { 
+    .section-row { flex-direction:column; } 
+    .right-col { background-color:transparent; color:#222; } 
+}
