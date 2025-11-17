@@ -11,12 +11,12 @@ html {
     background-size: cover;
 }
 
-.footer{
+.footer {
     font-size:12px;
     font-style:italic;
 }
 
-.spacer{
+.spacer {
     height:208px;
 }
 
@@ -26,6 +26,13 @@ html {
 
 .green-background {
     background-color: rgb(58, 81, 70);
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.row > [class*='col'] {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
 }
 
 .nav-link {
@@ -38,11 +45,12 @@ html {
     font-weight:bold;
 }
 
-.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+.navbar-light .navbar-nav .nav-link:focus, 
+.navbar-light .navbar-nav .nav-link:hover {
     color: #d63a0b;
 }
 
-.navbar-light .navbar-nav .nav-link{
+.navbar-light .navbar-nav .nav-link {
     color:#000;
 }
 
@@ -71,6 +79,15 @@ h3 {
     letter-spacing: 8.4px;
 }
 
+.green-background .subtitle {
+    color: #f8f8f8;
+    text-shadow: 0 0 4px rgba(0,0,0,0.4);
+}
+
+.green-background hr {
+    border-color: #e5e5e5;
+}
+
 p {
     font-size: 15px;
     font-family: 'Montserrat';
@@ -81,6 +98,12 @@ p {
 
 .content {
     max-width: 425px;
+}
+
+.green-background .content {
+    max-width: 100%;
+    width: 100%;
+    padding: 0;
 }
 
 a {
@@ -96,4 +119,17 @@ a.anchor {
     position: relative;
     top: -208px;
     visibility: hidden;
+}
+
+.portrait {
+    max-width: 70%;
+    height: auto;
+    display: block;
+    margin: 2rem auto;
+}
+
+.green-background img.img-fluid {
+    width: 100%;
+    height: auto;
+    display: block;
 }
