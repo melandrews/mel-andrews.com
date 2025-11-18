@@ -1,126 +1,105 @@
-@import url('https://fonts.googleapis.com/css2?family=Abel&family=Cormorant+Garamond:wght@400;600&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Montserrat:wght@400;600;700&display=swap');
 
 html { scroll-behavior: smooth; }
 
-
+/* CLEAN NAV—remove header image entirely */
 .navbar {
-    background-image: none !important;
+    background: #ffffff !important;
     min-height: 64px !important;
-    background-color: white;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid #eaeaea;
 }
 
+/* Correct offset for fixed nav */
+.spacer { height: 80px !important; }
 
-.spacer { height: 64px !important; }
-
+/* Remove Garamond—standardize headings */
+.brand-text,
+.subtitle,
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
 
 .brand-text {
     color: #d63a0b;
-    font-family: 'Montserrat' !important;
-    font-weight: 700;
-    font-size: clamp(28px, 4.5vw, 59px);
+    font-size: clamp(30px, 4.5vw, 56px);
 }
 
 .subtitle {
-    font-family: 'Montserrat' !important;
     font-weight: 600;
-    font-size: clamp(18px, 2vw, 21px);
-    letter-spacing: 2px;
+    font-size: clamp(18px, 2vw, 22px);
 }
 
-
+/* Body text */
 p {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-size: clamp(14px,1.2vw,16px);
-    line-height: 1.75;
+    line-height: 1.7;
     text-align: justify;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin: 1rem 0;
 }
 
 .content {
-    max-width: 800px;
+    max-width: 700px;
     margin: 0 auto;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
 }
 
-
+/* Navigation links */
 .nav-link {
     font-family: 'Abel';
-    font-size: 1.2rem;
+    font-size: 1.15rem;
     font-weight: 600;
     margin: 0 7px;
     color: #000;
-    text-shadow: 0px 0px 6px #fff;
 }
 
-.navbar-light .navbar-nav .nav-link:focus,
 .navbar-light .navbar-nav .nav-link:hover {
     color: #d63a0b;
 }
 
-
+/* Images */
 img {
     max-width: 100%;
     height: auto;
     display: block;
-    margin: 0 auto;
 }
 
-
+/* Portrait */
 .portrait {
-    width: clamp(160px, 28vw, 340px);
-    height: clamp(160px, 28vw, 340px);
+    width: clamp(180px, 26vw, 340px);
+    height: clamp(180px, 26vw, 340px);
     border-radius: 50%;
-    margin-bottom: 2rem;
 }
 
+/* CV viewer */
 iframe {
     width: 100%;
     height: 100vh;
     border: none;
 }
 
-
-.footer {
-    font-size:12px;
-    font-style:italic;
-    text-align:center;
-}
-
+/* Anchor offset for smooth scrolling */
 a.anchor {
-    display:block;
+    display: block;
     position: relative;
-    top: -64px !important;
+    top: -80px;
     visibility: hidden;
 }
 
-.pop-links {
-    list-style: none;
-    padding-left: 0;
-    margin-top: 1rem;
-}
-
-.pop-links li {
-    margin-bottom: 1rem;
-    font-size: 16px;
-    line-height: 1.6;
-}
-
+/* Popular Philosophy */
+.pop-links { list-style: none; padding-left: 0; }
+.pop-links li { margin: 1rem 0; }
 .pop-links a {
     color: #d63a0b;
     text-decoration: none;
     font-weight: 500;
 }
+.pop-links a:hover { text-decoration: underline; }
 
-.pop-links a:hover,
-.pop-links a:focus {
-    text-decoration: underline;
-}
-
-@media(max-width:991px){
+/* Mobile adjustments */
+@media (max-width: 991px) {
     .spacer { height: 64px !important; }
-    a.anchor { top: -64px !important; }
+    a.anchor { top: -64px; }
     .content { max-width: 95%; }
 }
