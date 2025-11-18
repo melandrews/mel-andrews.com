@@ -7,10 +7,11 @@ html { scroll-behavior: smooth; }
     background: #ffffff !important;
     min-height: 64px !important;
     border-bottom: 1px solid #eaeaea;
+    background-image: none !important;   /* forces removal */
 }
 
-/* Correct offset for fixed nav */
-.spacer { height: 80px !important; }
+/* /* Correct offset for fixed nav */
+.spacer { height: 80px !important; } */
 
 /* Remove Garamond—standardize headings */
 .brand-text,
@@ -97,9 +98,27 @@ a.anchor {
 }
 .pop-links a:hover { text-decoration: underline; }
 
+/* Left-align these sections instead of centered max-width block */
+.publications,
+.contact-block {
+    max-width: 800px;
+    margin: 0;
+    padding-left: 0;
+}
+
+.publications ul,
+.pop-links ul {
+    padding-left: 1rem;   /* standard UL indentation */
+}
+
+.contact-block p {
+    text-align: left !important;
+}
+
 /* Mobile adjustments */
 @media (max-width: 991px) {
     .spacer { height: 64px !important; }
     a.anchor { top: -64px; }
     .content { max-width: 95%; }
 }
+
