@@ -115,16 +115,24 @@ a.anchor {
     text-align: left !important;
 }
 
+
+
 .navbar-name {
-    font-family: 'Montserrat', sans-serif !important;
-    font-weight: 700 !important;
-    color: #d63a0b !important;
-    font-size: clamp(32px, 4vw, 58px) !important;
-    letter-spacing: 1px;
-    padding: 0;
-    margin: 0;
-    line-height: 1;
-}
+            font-family: 'Montserrat', sans-serif;
+            font-size: 2.5rem; /* adjust to desired large size */
+            color: #d63a0b; /* red color */
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+
+        a {
+            color: #d63a0b;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #8a2406; /* slightly darker on hover */
+        }
 
 /* Mobile adjustments */
 @media (max-width: 991px) {
@@ -132,5 +140,6 @@ a.anchor {
     a.anchor { top: -64px; }
     .content { max-width: 95%; }
 }
+
 
 
