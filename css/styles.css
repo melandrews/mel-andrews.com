@@ -56,6 +56,10 @@ p {
     color: #000;
 }
 
+a {
+    color: #d63a0b;
+}
+
 .navbar-light .navbar-nav .nav-link:hover {
     color: #d63a0b;
 }
@@ -157,6 +161,7 @@ a.anchor {
     a.anchor { top: -64px; }
     .content { max-width: 95%; }
 }
+
 
 
 
