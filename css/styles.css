@@ -162,6 +162,12 @@ a.anchor {
     .content { max-width: 95%; }
 }
 
+.contact-row img,
+.links img {
+    display: inline-block !important;
+    max-width: 32px !important;
+}
+
 
 
 
