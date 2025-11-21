@@ -43,7 +43,8 @@ p {
 
 .content {
     max-width: 700px;
-    margin: 0 auto;
+    margin: 5 auto;
+    padding: 2rem;
 }
 
 /* Navigation links */
@@ -147,15 +148,16 @@ a.anchor {
 .publications a:hover,
 .popular a:hover,
 .navbar-nav .nav-link:hover {
-    color: #b83208; /* slightly darker on hover */
+    color: #b83208;
 }
 
-/* Mobile adjustments */
+
 @media (max-width: 991px) {
     .spacer { height: 64px !important; }
     a.anchor { top: -64px; }
     .content { max-width: 95%; }
 }
+
 
 
 
