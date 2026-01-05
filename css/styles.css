@@ -168,6 +168,11 @@ a.anchor {
     max-width: 32px !important;
 }
 
+.links img {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+}
 
 
 
