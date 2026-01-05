@@ -162,20 +162,17 @@ a.anchor {
     .content { max-width: 95%; }
 }
 
-.contact-row img,
-.links img {
-    display: inline-block !important;
-    max-width: 32px !important;
-}
 
-.row .col-3.text-center > img {
+#contact ~ .row .col-3.text-center img,
+.row.links .col-3.text-center img {
   width: 34px !important;
   height: 34px !important;
+  max-width: none !important;
+  max-height: none !important;
   object-fit: contain;
-  display: block;
-  margin: 0 auto;
+  display: block !important;
+  margin: 0 auto !important;
 }
-
 
 
 
