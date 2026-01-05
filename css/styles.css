@@ -147,21 +147,21 @@ a.anchor {
 #contact ~ .row .col-3.text-center {
     flex: 0 0 auto;
     width: auto;
-    padding-right: 8px;   /* tighter gap */
+    padding-right: 10px;  
 }
 
 #contact ~ .row .col {
-    padding-left: 4px;
+    padding-left: 8px;
 }
 
 #contact ~ .row .col-3.text-center > img {
-    width: 24px !important;
-    height: 24px !important;
+    width: 32px !important;
+    height: 32px !important;
     max-width: none !important;
     max-height: none !important;
     object-fit: contain;
     display: block;
-    margin: 0 auto;
+    margin: 2 auto;
 }
 
 .publications li,
@@ -178,4 +178,5 @@ a.anchor {
         order: 1; /* portrait */
     }
 }
+
 
