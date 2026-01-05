@@ -154,7 +154,6 @@ a.anchor {
     padding-left: 4px;
 }
 
-/* uniformly smaller icons */
 #contact ~ .row .col-3.text-center > img {
     width: 24px !important;
     height: 24px !important;
@@ -163,6 +162,11 @@ a.anchor {
     object-fit: contain;
     display: block;
     margin: 0 auto;
+}
+
+.publications li,
+.popular li {
+    margin-bottom: 0.75rem;
 }
 
 
