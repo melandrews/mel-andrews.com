@@ -168,12 +168,13 @@ a.anchor {
     max-width: 32px !important;
 }
 
-.links img {
-    width: 32px;
-    height: 32px;
-    object-fit: contain;
+.row .col-3.text-center > img {
+  width: 34px !important;
+  height: 34px !important;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
 }
-
 
 
 
