@@ -169,4 +169,13 @@ a.anchor {
     margin-bottom: 0.75rem;
 }
 
+@media (max-width: 991px) {
+    .row.align-items-center > .col-lg-6:first-child {
+        order: 2; /* bio */
+    }
+
+    .row.align-items-center > .col-lg-6:last-child {
+        order: 1; /* portrait */
+    }
+}
 
